@@ -1,2 +1,4 @@
-# project1
-Template of project 1
+# project 1 of PI515 at JD
+
+Number guessing game.
+

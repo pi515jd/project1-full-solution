@@ -1,15 +1,16 @@
 import random
 # Copyright 2022 PI515
 
+# optional forever loop to keep playing
 while True:
 
-    boolean = True
-    while boolean:
+    keepAsking = True
+    while keepAsking:
         num = input("Type a number for an upper bound: ")
         if num.isdigit():
             print("Let's play!")
             num = int(num)
-            boolean = False
+            keepAsking = False
         else:
             print("Invalid input. Try again.")
 
